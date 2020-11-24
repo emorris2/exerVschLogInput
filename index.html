@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Getting Values from fields.</title>
+</head>
+<body>
+<h1>Getting Values from fields</h1>
+Enter Data Here: <input type="text" id="foo" value="" />
+<button onclick="getValue()">Get Value</button>
+<p id="boo"></p>
+
+<script>
+  function getValue(){
+    var y = document.getElementById('boo');
+    var x = document.getElementById('foo').value;
+    y.innerHTML=x;
+
+}
+</script>
+</body>
+</html>
